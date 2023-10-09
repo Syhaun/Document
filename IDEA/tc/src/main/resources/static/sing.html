@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sing.css">
+    <title>移动端框架</title>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <!-- 图标部分 -->
+        <div class="icon-bar">
+        </div>
+        <!-- 小导航栏部分 -->
+        <div class="small-navbar">
+            <button id="tc-intro">TC简介</button>
+            <button id="directions">方向</button>
+            <button id="login">登录</button>
+            <button id="interview-progress">面试进度</button>
+        </div>
+    </nav>
+
+    <!-- 内容区 -->
+    <div class="container">
+        <div class="form-container" id="login-container">
+            <h2>登录</h2>
+            <form id="login-form">
+                <input type="text" id="login-student-id" placeholder="学号" required>
+                <input type="password" id="login-password" placeholder="密码" required>
+                <span id="tishi2"></span>
+                <button type="submit" id="submit2">登录</button>
+            </form>
+            <button id="show-register-button">注册</button>
+        </div>
+        <div class="form-container" id="register-container" style="display: none;">
+            <h2>注册</h2>
+            <form id="register-form">
+                <input type="text" id="register-name" placeholder="姓名" required>
+                <input type="text" id="register-student-id" placeholder="学号" required>
+                <input type="tel" id="register-phone" placeholder="电话" required>
+                <input type="text" id="register-major" placeholder="专业班级" required>
+                <input type="password" id="register-password" placeholder="密码" required>
+                <input type=" password" id="register-confirm-password" placeholder="确认密码" onkeyup="checkpassword()"
+                    required>
+                <span id="tishi"></span>
+                <label for=" direction">选择方向：</label>
+                <select id="direction" required>
+                    <option value="" disabled selected>请选择方向</option>
+                    <option value="前端">前端</option>
+                    <option value="后台">后台</option>
+                    <option value="安卓">安卓</option>
+                    <option value="嵌入式">嵌入式</option>
+                </select>
+                <button type="submit" id="submit1">注册</button>
+            </form>
+            <button id="return-to-login-button">返回登录</button>
+        </div>
+    </div>
+
+
+    <!-- 页脚 -->
+    <footer>
+        请大家积极加入TC迎新群(QQ:308623161),后续将会发布相关公告
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./jQuery Core 3.6.0.js"></script>
+    <script src="sing.js"></script>
+</body>
+
+</html>

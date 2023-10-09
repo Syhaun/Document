@@ -1,0 +1,12 @@
+com\tc\Mapper\adminMapper.class
+com\tc\DemoApplication.class
+com\tc\pojo\admin.class
+com\tc\service\adminService.class
+com\tc\service\impl\adminServiceImpl.class
+com\tc\Mapper\UserMapper.class
+com\tc\contorller\adminController.class
+com\tc\service\impl\UserServiceImpl.class
+com\tc\contorller\UserController.class
+com\tc\pojo\User.class
+com\tc\service\UserService.class
+com\tc\pojo\Result.class

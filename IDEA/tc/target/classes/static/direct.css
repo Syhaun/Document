@@ -1,0 +1,160 @@
+/* 基础样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* 使用 flex 布局 */
+    flex-direction: column;
+    /* 主轴方向为垂直方向 */
+    height: 100vh;
+    /* 让 body 占满整个视口高度 */
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    flex: 0 0 23%;
+    /* 固定导航栏到页面上部，并占据23%的高度 */
+    display: flex;
+    /* 使用 flex 布局 */
+    flex-direction: column;
+    /* 主轴方向为垂直方向 */
+}
+
+.icon-bar {
+    width: 100%;
+    height: 13%;
+    /* 调整图标模块高度为13% */
+    /* 这里可以添加图标的样式 */
+}
+
+.small-navbar {
+    width: 100%;
+    height: 10%;
+    /* 调整小导航栏高度为10% */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-navbar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* 内容区样式 */
+.swiper {
+    flex: 1;
+    /* 占据剩余的空间，实现中部固定 */
+    overflow: auto;
+    /* 如果内容溢出，显示滚动条 */
+    /* 这里可以添加内容的样式 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    flex: 0 0 7%;
+    /* 固定页脚到页面底部，并占据7%的高度 */
+    text-align: center;
+    line-height: 7vh;
+    /* 这里可以添加页脚的样式 */
+}
+
+
+
+.swiper {
+    width: 330px;
+    height: 400px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+}
+
+.one {
+    background-image: url(images/Qian.jpg);
+}
+
+.two {
+    background-image: url(images/Hou.jpg);
+}
+
+.three {
+    background-image: url(images/An.jpg);
+}
+
+.four {
+    background-image: url(images/Qiand.jpg);
+}
+
+h2 {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    color: #000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

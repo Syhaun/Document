@@ -1,0 +1,155 @@
+/* 基础样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* 使用 flex 布局 */
+    flex-direction: column;
+    /* 主轴方向为垂直方向 */
+    height: 100vh;
+    /* 让 body 占满整个视口高度 */
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    flex: 0 0 23%;
+    /* 固定导航栏到页面上部，并占据23%的高度 */
+    display: flex;
+    /* 使用 flex 布局 */
+    flex-direction: column;
+    /* 主轴方向为垂直方向 */
+}
+
+.icon-bar {
+    width: 100%;
+    height: 13%;
+    /* 调整图标模块高度为13% */
+    /* 这里可以添加图标的样式 */
+}
+
+.small-navbar {
+    width: 100%;
+    height: 10%;
+    /* 调整小导航栏高度为10% */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-navbar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* 内容区样式 */
+.content {
+    flex: 1;
+    /* 占据剩余的空间，实现中部固定 */
+    overflow: auto;
+    /* 如果内容溢出，显示滚动条 */
+    /* 这里可以添加内容的样式 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    flex: 0 0 7%;
+    /* 固定页脚到页面底部，并占据7%的高度 */
+    text-align: center;
+    line-height: 7vh;
+    /* 这里可以添加页脚的样式 */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 70vh;
+    /* 占据页面高度的70% */
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    flex: 0 0 7%;
+    /* 固定页脚到页面底部，并占据7%的高度 */
+    text-align: center;
+    line-height: 7vh;
+    /* 这里可以添加页脚的样式 */
+}
