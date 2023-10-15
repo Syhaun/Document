@@ -28,19 +28,8 @@ interviewProgressButton.addEventListener("click", () => {
     // 例如：window.location.href = "interview_progress.html";
     window.location.href = "status.html"
 });
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+document.getElementById("btn1").addEventListener("click", function () {
+    // 使用 window.location.href 来跳转到另一个页面
+    window.location.href = "sing.html"; // 将网址替换为你想要跳转的目标页面的URL
 });
+

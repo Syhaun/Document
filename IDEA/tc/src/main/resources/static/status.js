@@ -55,7 +55,7 @@ let sendData = {
 }
 $.ajax({
     type: 'post',
-    url: 'http://localhost:8080/select',
+    url: '/select',
     data: JSON.stringify(sendData),
     dataType: 'json',
     contentType:'application/json',

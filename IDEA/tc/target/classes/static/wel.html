@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="wel.css">
     <title>移动端框架</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js.map"> </script>
 </head>
 
 <body>
@@ -21,7 +16,7 @@
         </div>
         <!-- 小导航栏部分 -->
         <div class="small-navbar">
-            <button id="tc-intro">TC简介</button>
+            <button id="tc-intro">首页</button>
             <button id="directions">方向</button>
             <button id="login">登录</button>
             <button id="interview-progress">面试进度</button>
@@ -29,45 +24,24 @@
     </nav>
 
     <!-- 内容区 -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="images/one.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="images/two.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="images/three.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="images/four.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="images/five.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="images/six.jpg" alt="">
-            </div>
-
+    <div class="container">
+        <div class="content">
+            <h1>欢迎加入ThoughtCoding实验室！</h1>
+            <p>TC期待你的到来</p>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        <div class="container">
-            <div class="content">
-                <h1>欢迎加入thoughtcoding实验室！</h1>
-                <p>欢迎大家加入我们</p>
-            </div>
+        <div id="button">
+            <input type="button" value="加入我们" id="btn1">
         </div>
+    </div>
 
-        <!-- 页脚 -->
-        <footer>
-            请大家积极加入TC迎新群(QQ:308623161),后续将会发布相关公告
-        </footer>
 
-        <!-- JavaScript -->
-        <script src="wel.js"></script>
+    <!-- 页脚 -->
+    <footer>
+        技术改变生活，奋斗共享价值
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="wel.js"></script>
 </body>
 
 </html>

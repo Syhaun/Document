@@ -132,7 +132,7 @@ submit1.onclick = function () {
     const confirmPassword = document.getElementById('register-confirm-password').value;
     const direction = $('#direction').val()
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:8080/register');
+    xhr.open('POST', '/register');
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({
         name: name,
@@ -169,7 +169,7 @@ submit2.onclick = function () {
     const studentId = document.getElementById('login-student-id').value;
     const password = document.getElementById('login-password').value;
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:8080/login');
+    xhr.open('POST', '/login');
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({
         stu_num: studentId,

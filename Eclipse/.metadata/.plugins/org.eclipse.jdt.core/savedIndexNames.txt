@@ -1,4 +1,0 @@
-INDEX VERSION 1.132+D:\代码文件夹集\悦悦坏坏\.metadata\.plugins\org.eclipse.jdt.core
-3857801875.index
-1865797976.index
-325461025.index
