@@ -1,4 +1,4 @@
-package com.Syhaun.POJO;
+package com.Syhaun.pojo;
 //品牌
 
 //alt+鼠标左键  整列编辑
