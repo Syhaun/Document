@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    let students=[
+        {name:'小明',age:19,gender:'女',hometown:'河北'},
+        {name:'小刚',age:18,gender:'男',hometown:'陕西'},
+        {name:'小美',age:20,gender:'女',hometown:'山东'}
+    ]
+    for(let i=0;i<students.length;i++){
+        console.log(students[i].name);
+    }
+    //渲染页面
+    for(i=0;i<students.length ;i++){
+        document.write(
+        <tr>
+            <td>${i+1}</td>
+            <td>${students[i].name}</td>
+            <td>${students[i].age}</td>
+            <td>${students[i].gender}</td>
+            <td>${students[i].hometown}</td>
+
+        </tr>
+
+        )
+    }
+
+    //属性
+    console.log(Math.PI)
+    //方法
+    //ceil 向上取整
+    console.log(Math.ceil(1.5))  //2
+
+    //floor 向下取整
+    console.log(Math.floor(1.9))    //1
+
+    //round 四舍五入(离他最近,负数如果是.5取大的值)
+    console.log(Math.round(4.5))  //5
+    console.log(Math.round(1.4))   //1
+    console.log(Math.round(-1.1))   //-1
+    console.log(Math.round(-20.5))  //-20
+    console.log(Math.round(-20.51))   //-21
+
+
+           //取整函数parseInt(1.2)    //1
+
+  </script>
+</body>
+</html>
