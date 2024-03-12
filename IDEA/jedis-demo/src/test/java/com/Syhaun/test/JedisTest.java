@@ -17,7 +17,7 @@ public class JedisTest {
        // jedis = new Jedis("192.168.199.128",6379);
         jedis = JedisConnectionFactory.getJedis();
         //2.设置密码
-        jedis.auth("Syhaun");
+        //jedis.auth("Syhaun");
         //3.选择库
         jedis.select(0);
     }
