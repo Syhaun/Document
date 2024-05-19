@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="common/mr-common.css">
+    <script src="common/mr-common.js"></script>
+	 <!-- 本案例CSS文件-->
+	 <link type="text/css" rel="stylesheet" href="css/mr-style.css">
+</head>
+<body>
+
+<ui-view>
+    <div id="codeArea" class="container containerHome">
+        <div class="icons">
+            <section>
+                <h1>列表</h1>
+
+                <p class="mr-code-info">
+                    CSS中定义了丰富的CSS列表外观。列表属性用于设置列表（ol和ul）的显示特征。
+                </p>
+            </section>
+
+            <section>
+                <hr/>
+                <div>效果<a class="mr-code-link" href="javascript:showCode();">源码</a></div>
+            </section>
+
+            <section class="mr-code-show">
+			    <!-- 这里填写你的HTML代码-->
+                <div class="mr-border">
+  <div class="mr-box">
+    <div class="mr-nav">
+      <ul>
+        <li class="mr-hover"><a href="#">商品分类</a>
+          <ol>
+            <div class="mr-item">
+              <ol>
+                <li><a href="#">女装 /内衣</a></li>
+                <li><a href="#">男装 /运动户外</a></li>
+                <li><a href="#">女鞋 /男鞋 /箱包</a></li>
+                <li><a href="#">化妆品 /个人护理</a></li>
+                <li><a href="#">腕表 /饰品 /眼镜</a></li>
+                <li><a href="#">手机 /数码 /办公</a></li>
+                <li><a href="#">零食 /食品 /茶酒</a></li>
+                <li><a href="#"> 生鲜水果</a></li>
+                <li><a href="#">生活电器</a></li>
+              </ol>
+            </div>
+          </ol>
+        </li>
+        <li class="mr-hover"><a href="#">春节特卖</a>
+          <ul>
+            <div class="mr-shopbox">
+              <ul>
+                <li><a href="#">服装服饰</a></li>
+                <li><a href="#">母婴会场</a></li>
+                <li><a href="#">数码家电</a></li>
+                <li><a href="#">家纺家居</a></li>
+                <li><a href="#">美妆会场</a></li>
+                <li><a href="#">汽车特卖</a></li>
+                <li><a href="#">进口尖货</a></li>
+                <li><a href="#">医药保健</a></li>
+              </ul>
+            </div>
+          </ul>
+        </li>
+        <li class="mr-hover"><a href="#">会员</a></li>
+        <li class="mr-hover"><a href="#">电器城</a></li>
+        <li class="mr-hover"><a href="#">天猫会员</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+            </section>
+
+            <footer class="mr-footer">
+                <hr/>
+                <p>技术支持： <a href="http://www.mingrisoft.com/" target="_blank">明日科技</a></p>
+            </footer>
+
+        </div>
+
+
+        <!-- 源码区域开始 -->
+        <ui-view>
+            <div class="viewer ng-scope">
+                <a class="buttonClose" href='javascript:closeCode();'></a>
+
+                <div class="viewerWrapper">
+                    <div class="iconLabel ng-binding"> 源码</div>
+                    <div class="codeBlocks">
+                        <h4>HTML</h4>
+                        <xmp>
+<!-- 这里填写你的HTML代码-->
+
+ <div class="mr-border">
+  <div class="mr-box">
+    <div class="mr-nav">
+      <ul>
+        <li class="mr-hover"><a href="#">商品分类</a>
+          <ol>
+            <div class="mr-item">
+              <ol>
+                <li><a href="#">女装 /内衣</a></li>
+                <li><a href="#">男装 /运动户外</a></li>
+                <li><a href="#">女鞋 /男鞋 /箱包</a></li>
+                <li><a href="#">化妆品 /个人护理</a></li>
+                <li><a href="#">腕表 /饰品 /眼镜</a></li>
+                <li><a href="#">手机 /数码 /办公</a></li>
+                <li><a href="#">零食 /食品 /茶酒</a></li>
+                <li><a href="#"> 生鲜水果</a></li>
+                <li><a href="#">生活电器</a></li>
+              </ol>
+            </div>
+          </ol>
+        </li>
+        <li class="mr-hover"><a href="#">春节特卖</a>
+          <ul>
+            <div class="mr-shopbox">
+              <ul>
+                <li><a href="#">服装服饰</a></li>
+                <li><a href="#">母婴会场</a></li>
+                <li><a href="#">数码家电</a></li>
+                <li><a href="#">家纺家居</a></li>
+                <li><a href="#">美妆会场</a></li>
+                <li><a href="#">汽车特卖</a></li>
+                <li><a href="#">进口尖货</a></li>
+                <li><a href="#">医药保健</a></li>
+              </ul>
+            </div>
+          </ul>
+        </li>
+        <li class="mr-hover"><a href="#">会员</a></li>
+        <li class="mr-hover"><a href="#">电器城</a></li>
+        <li class="mr-hover"><a href="#">天猫会员</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+                        </xmp>
+                        <h4>CSS</h4>
+                        <xmp>
+<!-- 这里填写你的CSS代码-->
+
+.mr-box {
+	width: 1000px;
+	height: 500px;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-size: 100% 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+/*主导航样式*/
+.mr-nav>ul, ol {
+	width: 93%;
+	margin: 0 auto;
+}
+.mr-nav {
+	background: #DD2727;
+	height: 37px;
+	width: 1000px;
+}
+.mr-nav li {/*导航栏的li的样式*/
+	width: 176px;
+	list-style: none;
+	float: left;
+	line-height: 37px;
+}
+.mr-hover:hover {  /*当鼠标移动上去时导航栏变色*/
+	background: rgba(255,255,255,0.1);
+}
+/*主导航样式*/
+
+
+.mr-shopbox ul {
+	padding-top: 4px;
+	padding-left: 20px;
+}
+
+.mr-nav li a {
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 6px 17px;
+	color: #222;
+	font-family: "微软雅黑";
+}
+.mr-nav li:hover ul div, .mr-nav li:hover ol div {
+	display: block;
+}
+.mr-nav li ol div {
+	width: 179px;
+	display: none;
+	background: rgba(255,255,255,0.5);
+}
+.mr-nav li ul div {
+	width: 185px;
+	display: block;
+	background: rgba(255,255,255,0.5);
+}
+.mr-shopbox li {
+	width: 153px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 15px;
+	border: 1px solid #CB0C10;
+	border-radius: 10px;
+}
+.mr-shopbox li:hover {
+	background: #CB0C10;
+}
+/* 商品分类子导航栏*/
+.mr-item li {
+	width: 100%;
+}
+.mr-item {
+	background: #fff;
+}
+
+.mr-item li a {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+.mr-item li:hover {
+	background: #fff;
+}
+.mr-item li a:hover {
+	color: #DD2727
+}
+.mr-shopbox {
+	background: rgba(0,0,0,1);
+	width: 234px;
+	height: 432px;
+}
+
+/* 商品分类子导航栏*/
+
+/*春节特卖子导航*/
+.mr-shopbox li a {
+	text-decoration: none;
+	COLOR: #FFF;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.mr-border {
+	width: 1097px;
+	height: 541px;
+	border: 2px solid red;
+	margin: 0 auto;
+}
+/*春节特卖子导航*/
+                        </xmp>
+                    </div>
+                </div>
+            </div>
+        </ui-view>
+        <!-- 源码区域结束-->
+		
+    </div>
+
+</ui-view>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-demo2.iml" filepath="$PROJECT_DIR$/.idea/spring-demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_09_datasource/spring_09_datasource.iml" filepath="$PROJECT_DIR$/spring_09_datasource/spring_09_datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_10_container/spring_10_container.iml" filepath="$PROJECT_DIR$/spring_10_container/spring_10_container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_11_annotation_bean/spring_11_annotation_bean.iml" filepath="$PROJECT_DIR$/spring_11_annotation_bean/spring_11_annotation_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_12_annotation_bean_manager/spring_12_annotation_bean_manager.iml" filepath="$PROJECT_DIR$/spring_12_annotation_bean_manager/spring_12_annotation_bean_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_13_annotation_di/spring_13_annotation_di.iml" filepath="$PROJECT_DIR$/spring_13_annotation_di/spring_13_annotation_di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_14_annotation_third_bean_manager/spring_14_annotation_third_bean_manager.iml" filepath="$PROJECT_DIR$/spring_14_annotation_third_bean_manager/spring_14_annotation_third_bean_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" filepath="$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_16_spring_junit/spring_16_spring_junit.iml" filepath="$PROJECT_DIR$/spring_16_spring_junit/spring_16_spring_junit.iml" />
+    </modules>
+  </component>
+</project>

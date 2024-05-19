@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring_10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_09_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_16_spring_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_13_annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_spring_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_11_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_12_annotation_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_14_annotation_third_bean_manager/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
